@@ -1,15 +1,19 @@
+% Prompt the user to enter matrix A and matrix B
+A = input('Enter matrix A: ');
+B = input('Enter matrix B: ');
 
-function retval = task_101 ()
-A = input("Matrix A: ");
+% Check if both matrices are compatible for multiplication
+if size(A, 2) == size(B, 1)
+    % Perform matrix multiplication
+    C = A * B;
 
-    B = input("Matrix B : ");
-    max_value_A = max(max(A));
-    fprintf("Max value of A: %d\n", max_value_A);
-    if size(A, 2) == size(B, 1)
-        result_matrix = A * B;
-        fprintf("Multiplication :\n");
-        disp(result_matrix);
-    else
-        fprintf("Matrix multiplication is not possible..\n");
-    end
-endfunction
+    % Display the result
+    fprintf('The product of matrices A and B is:\n');
+    disp(C);
+else
+    fprintf('Matrix multiplication is not possible due to incompatible dimensions.\n');
+end
+
+% Find and print the maximum value in matrix A
+max_val = max(A(:));
+fprintf('The maximum value in matrix A is: %d\n', max_val);
