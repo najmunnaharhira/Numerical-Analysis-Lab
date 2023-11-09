@@ -3,7 +3,7 @@ This repository contains code and materials related to the Numerical Analysis La
 Contents
 task_101 : Matrix Manupulation
 
-task_1002: Implementations of Bisection Method for finding roots of equations.
+task_102: Implementations of Bisection Method for finding roots of equations.
 
 task_103: Implementations and examples of the False Position Method (Regula Falsi) for finding roots of equations.
 
