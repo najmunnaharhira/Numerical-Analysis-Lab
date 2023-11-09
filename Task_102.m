@@ -1,4 +1,4 @@
-function retval = task_102 ()
+এfunction retval = task_102 ()
 
 function y = f(x)
     y = x.^2 - 4;
@@ -6,12 +6,12 @@ end
 
 a = 0;
 b = 3;
-p = 1e-6;
+t = 1e-6;
 
 roots = [];
 iterations = 0;
 
-while (b - a) / 2 > p
+while (b - a) / 2 > t
     c = (a + b) / 2;
     roots = [roots; c];
 
