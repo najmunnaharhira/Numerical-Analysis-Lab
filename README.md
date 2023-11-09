@@ -8,3 +8,4 @@ task_102: Implementations of Bisection Method for finding roots of equations.
 task_103: Implementations and examples of the False Position Method (Regula Falsi) for finding roots of equations.
 
 task_104: Implementations of the Newton-Raphson Method for finding roots of equations. Tangent lines are drawn at each iteration
+# Screeenshot
